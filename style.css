@@ -16,8 +16,8 @@ html {
   background-attachment: fixed;
   background-image: linear-gradient(
     to bottom,
-    #e8e7f1,
-    #888888
+    #e8e7f1 75%,
+    rgb(48, 48, 48)
   )
 }
 
@@ -26,11 +26,11 @@ a {
 }
 
 a:link {
-  color:rgb(187, 235, 236);
+  color:rgb(32, 171, 4);
 }
 
 a:visited {
-  color:rgb(187, 235, 236);
+  color:rgb(9, 1, 168);
 }
 
 footer {
@@ -51,6 +51,27 @@ footer {
 
 .center {
   text-align: center;
+}
+
+.credit {
+  margin-bottom: 20px;
+}
+
+.creditImg {
+  width: 40vw;
+  float: right;
+  margin: 10px;
+}
+
+.creditImgLeft {
+  width: 40vw;
+  float: left;
+  margin: 10px;
+}
+.creditPara {
+  margin-left: 0vw;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .social {
