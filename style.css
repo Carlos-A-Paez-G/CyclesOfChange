@@ -17,7 +17,7 @@ html {
   background-image: linear-gradient(
     to bottom,
     #e8e7f1,
-    #0c0c0c
+    #888888
   )
 }
 
@@ -44,7 +44,7 @@ footer {
 
 .centerImg {
   display: block;
-  width: 100%;
+  width: 80vw;
   margin-right: auto;
   margin-left: auto;
 }
@@ -91,7 +91,7 @@ p {
   width: 80%;
   padding: 10px;
   font-family: sans-serif;
-  color: rgb(215, 242, 240);
+  color: rgb(48, 48, 48);
 }
 
 ul {
@@ -108,7 +108,7 @@ ul {
 }
 
 h1 {
-  font-family: 'Yellowtail', cursive;
+  font-family: sans-serif, cursive;
   font-weight: normal;
   margin: auto;
   align-self: center;
@@ -121,6 +121,7 @@ h1 {
 }
 
 h2 {
+  font-family: sans-serif, cursive;
   margin: auto;
   width: 80%;
   padding: 10px;
@@ -131,11 +132,11 @@ h3 {
   margin: auto;
   width: 80%;
   padding: 10px;
-  color:rgb(205, 191, 173);
+  color:rgb(0, 0, 0);
 }
 
 .clear {
-  color:cornsilk;
+  color:rgb(1, 111, 85);
 }
 
 h4 {
