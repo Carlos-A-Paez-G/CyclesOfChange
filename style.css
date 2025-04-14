@@ -22,6 +22,10 @@ html {
   ) */
 }
 
+body {
+  padding-bottom: 1vh;
+}
+
 a {
   text-decoration: none;
 }
